@@ -11,7 +11,7 @@ function App() {
     <>
       <TodoContainer>
         <TodoForm addTodo={addTodo}></TodoForm>
-        <TodoList todoList={filteredTodos} toggleTodoCompleted={toggleTodoCompleted} setFilter={setFilter} filter={filter} clearCompleted={clearCompleted} removeTodo={removeTodo}> </TodoList>
+        <TodoList todoList={filteredTodos} toggleTodoCompleted={toggleTodoCompleted} setFilter={setFilter} filter={filter} clearCompleted={clearCompleted} removeTodo={removeTodo} />
       </TodoContainer>
     </>
   )
